@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Form</title>
+</head>
+<body>
+   <header class="mainheader">
+    <h1>SHS Production</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Tables</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Universe</a></li>
+                <li><a href="form.html">Join</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+    <h2>Please Sign Up here</h2>
+    <form action="action.php">
+        <label for="name">Your Name:
+            <input id="name" type="text" placeholder="Type your Name">
+        </label>
+        <label for="email">Your E-mail:
+            <input type="email" name="email" id="email" placeholder="Type your email">
+        </label>
+        <label for="phone">Your Phone:
+            <input type="text" name="phone" id="phone" placeholder="Type your phone">
+        </label>
+
+        <fieldset>
+            <legend>Choose your favorite Institute</legend>
+            <select name="Institute" id="00">
+                <option value="sepi">Sherpur Polytechnic Institute</option>
+                <option value="dpi">Dhaka Polytechnic Institute</option>
+                <option value="mpi">Mymenshing Polytechnic Institute</option>
+                <option value="spi">Sylhet Polytechnic Institute</option>
+                <option value="bpi">Brahmanbaria Polytechnic Institute</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick your College Shift</legend>
+            <label for="morning">
+                <input type="radio" name="shift" value="morning" id="morning">Morning
+            <label for="day">
+                <input type="radio" name="shift" value="day" id="day">Day
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick your Semester</legend>
+            <label for="2">
+                <input type="radio" name="semester" value="1" id="1">1<sup>st</sup> Semester
+            </label>
+            <label for="2">
+                <input type="radio" name="semester" value="2" id="2">2<sup>nd</sup> Semester
+            </label>
+            <label for="3">
+                <input type="radio" name="semester" value="3" id="3">3<sup>rd</sup> Semester
+            </label>
+            <label for="4">
+                <input type="radio" name="semester" value="4" id="4">4<sup>th</sup> Semester
+            </label>
+            <label for="5">
+                <input type="radio" name="semester" value="5" id="5">5<sup>th</sup> Semester
+            </label>
+            <label for="6">
+                <input type="radio" name="semester" value="6" id="6">6<sup>th</sup> Semester
+            </label>
+            <label for="7">
+                <input type="radio" name="semester" value="7" id="7">7<sup>th</sup> Semester
+            </label>
+            <label for="8">
+                <input type="radio" name="semester" value="8" id="8">8<sup>th</sup> Semester
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Mark your favorite Subjects</legend>
+            <label for="math">
+                <input type="checkbox" name="subject" value="math" id="math">Math
+            </label>
+            <label for="physics">
+                <input type="checkbox" name="subject" value="physics" id="physics">Physics
+            </label>
+            <label for="chemistry">
+                <input type="checkbox" name="subject" value="chemistry" id="chemistry">Chemistry
+            </label>
+            <label for="english">
+                <input type="checkbox" name="subject" value="english" id="english">English
+            </label>
+            <label for="programming">
+                <input type="checkbox" name="subject" value="programming" id="programming">Programming
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Write something about you</legend>
+            <textarea name="about" id="about" cols="30" rows="10" placeholder="Write something about you"></textarea>
+        </fieldset>
+        <input class="btn" type="reset" value="Reset">
+        <input class="btn" type="submit" value="Submit">
+    </form>
+   </main>
+   <footer>
+    <p>
+        <small>
+            &copy; 2020 Blog. All rights reserved.
+        </small>
+    </p>
+</footer>
+</body>
+</body>
+</html>
