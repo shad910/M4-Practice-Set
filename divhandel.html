@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Handle</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            background-color: bisque;
+        }
+
+        #css-section{
+            padding: 150px 0;
+            text-align: center;
+        }
+
+        .css-container{
+            width: 960px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .css-container .css-content h1{
+            color: blue;
+            font-size: 40px;
+            padding: 20px;
+        }
+
+        .css-container .css-content p{
+            color: red;
+            font-size: 20px;
+            padding: 5px 10px;
+            padding-bottom: 15px;
+        }
+
+        .css-content .css-btn{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .css-container .css-image img{
+            width: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="css-section">
+            <div class="css-container">
+                <div class="css-content">
+                    <h1>Md. Sahadot Hossen Shad</h1>
+                    <p>Want to become a Web Developer</p>
+                    <div class="css-btn">
+                        <button>Button-1</button>
+                        <button>Button-2</button>
+                        <button>Button-3</button>
+                    </div>
+                    </div>
+                <div class="css-image">
+                    <figure>
+                        <img src="./assets/sky.jpg" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <small>
+                &copy; 2020 Blog. All rights reserved.
+            </small>
+        </p>
+    </footer>
+</body>
+</html>
